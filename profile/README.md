@@ -1,12 +1,151 @@
-## Hi there 👋
+# 폴리텍대학 강서캠퍼스 사이버보안과 🛡️
 
-<!--
+> **재학생 수업 지원을 위한 GitHub 조직**
 
-**Here are some ideas to get you started:**
+안녕하세요! 한국폴리텍대학 서울강서캠퍼스 사이버보안과 GitHub 조직에 오신 것을 환영합니다.  
+이 조직은 재학생들의 효과적인 학습과 실습을 지원하기 위해 운영됩니다.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+---
+
+## 🏫 학과 소개
+
+**한국폴리텍대학 서울강서캠퍼스 사이버보안과**는 고용노동부 산하 국책특수대학으로서 현장실무 중심의 정보보안 전문가를 양성합니다.
+
+- 🎓 **2년제 학위과정** (정보보안과)
+- 🔧 **하이테크과정** (사이버보안과, 대졸자 대상)
+
+---
+
+## 💻 GitHub 조직 활용 방법
+
+### 📚 수업 자료 접근
+- **강의 자료**: PPT, PDF, 참고 문서
+- **실습 코드**: 예제 코드, 템플릿, 솔루션
+- **과제 안내**: 프로젝트 요구사항, 평가 기준
+- **참고 자료**: 추가 학습 리소스, 문서
+
+### 💻 실습 환경
+- **Git/GitHub 사용법**: 버전 관리 실습
+- **협업 도구 활용**: Pull Request, Issue 관리
+- **코드 리뷰**: 동료 학습 및 피드백
+- **포트폴리오 구축**: 개인 프로젝트 관리
+
+### 📁 과제 제출 및 관리
+- **개인 과제**: Fork → 작업 → Pull Request
+- **팀 프로젝트**: 브랜치 전략 활용한 협업
+- **버전 관리**: 진행 과정 추적 및 백업
+- **코드 품질**: 리뷰를 통한 개선
+
+---
+
+## 📂 저장소 구조
+
+### 🗂️ 저장소 명명 규칙
+```
+[과목코드]-[과목명]-[연도-학기]
+예: DB-Database-2025-1, WEB-WebContent-2025-1
+```
+
+### 📋 주요 저장소 유형
+- **📖 강의 자료**: 주차별 학습 내용 및 실습 가이드
+- **🛠️ 프로젝트 템플릿**: 과제 시작을 위한 기본 구조
+- **💡 예제 코드**: 수업 중 다룬 실습 예제
+- **📝 과제 저장소**: 개별/팀 과제 제출용
+
+### 📁 저장소 내부 구조 예시
+```
+📦 저장소명
+├── 📂 docs/          # 문서 및 가이드
+├── 📂 week01/        # 주차별 자료
+├── 📂 week02/
+├── 📂 examples/      # 예제 코드
+├── 📂 assignments/   # 과제 안내
+└── 📄 README.md      # 저장소 설명
+```
+
+---
+
+## 🔰 재학생을 위한 가이드
+
+### 📝 GitHub 시작하기
+1. **GitHub 계정 생성** → [github.com](https://github.com)
+2. **조직 초대 수락** → 이메일 확인
+3. **Git 설치 및 설정** → 로컬 환경 구성
+4. **첫 저장소 클론** → 실습 환경 준비
+
+### 📤 과제 제출 방법
+1. **저장소 Fork** → 개인 계정으로 복사
+2. **로컬에서 작업** → 코드 작성 및 테스트
+3. **Commit & Push** → 변경사항 업로드
+4. **Pull Request 생성** → 과제 제출 완료
+
+### 🤝 협업 프로젝트 참여
+1. **팀 저장소 접근** → 권한 확인
+2. **브랜치 생성** → 개인 작업 공간
+3. **작업 후 PR** → 팀원 리뷰 요청
+4. **코드 리뷰 참여** → 상호 학습 및 개선
+
+---
+
+## ❓ 자주 묻는 질문 (FAQ)
+
+<details>
+<summary><b>Q: GitHub 계정은 어떻게 만드나요?</b></summary>
+
+A: [GitHub 공식 사이트](https://github.com)에서 무료로 계정을 생성할 수 있습니다. 학교 이메일 주소 사용을 권장합니다.
+</details>
+
+<details>
+<summary><b>Q: 과제 제출 시 실수로 잘못 올렸어요.</b></summary>
+
+A: Git의 버전 관리 기능을 활용해 수정할 수 있습니다. 급한 경우 담당 교수님께 문의하세요.
+</details>
+
+<details>
+<summary><b>Q: 팀 프로젝트에서 충돌이 발생했어요.</b></summary>
+
+A: Git merge conflict 해결 방법을 학습하거나, 팀원과 협의하여 해결하세요. 필요시 교수님께 도움을 요청하세요.
+</details>
+
+<details>
+<summary><b>Q: 저장소에 접근할 수 없어요.</b></summary>
+
+A: 조직 초대를 수락했는지 확인하고, 권한 문제일 경우 학과 사무실로 문의하세요.
+</details>
+
+---
+
+## 📞 연락처 및 지원
+
+### 🏫 학과 정보
+- **한국폴리텍대학 서울강서캠퍼스 사이버보안과**
+- **주소**: 서울특별시 강서구 우장산로10길 112
+- **홈페이지**: [강서캠퍼스](https://www.kopo.ac.kr/kangseo/)
+
+### 📧 기술 지원
+- **GitHub 관련 문의**: 각 과목 담당 교수님
+- **학과 사무실**: 02-2600-2000 (내선: 사이버보안과)
+- **응급 상황**: 수업 시간 중 직접 문의
+
+### 🔗 유용한 링크
+- [Git 공식 문서](https://git-scm.com/doc)
+- [GitHub 가이드](https://guides.github.com/)
+- [Markdown 문법](https://www.markdownguide.org/)
+- [폴리텍대학 공식 홈페이지](https://www.kopo.ac.kr/)
+
+---
+
+## 🎯 학습 목표
+
+이 GitHub 조직을 통해 여러분은:
+- ✅ **실무형 버전 관리** 능력 습득
+- ✅ **협업 개발** 경험 쌓기
+- ✅ **포트폴리오** 구축하기
+- ✅ **오픈소스 문화** 이해하기
+
+---
+
+<div align="center">
+  <h3>🚀 함께 성장하는 사이버보안 전문가가 되어요!</h3>
+  <p><i>Securing the Future, Coding the Present</i></p>
+</div>
